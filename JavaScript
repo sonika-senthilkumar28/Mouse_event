@@ -1,0 +1,15 @@
+const Mybox = document.getElementById("Mybox");
+Mybox.addEventListener("click",(event)=>{
+    Mybox.style.backgroundColor = "Yellow";
+    Mybox.textContent = "Oh my God.. ❤️";
+});
+
+Mybox.addEventListener("mouseover",(event)=>{
+    Mybox.style.backgroundColor = "lightgreen";
+    Mybox.textContent = "soni is cute😍";
+});
+
+Mybox.addEventListener("mouseout",(event)=>{
+    Mybox.style.backgroundColor = "orange";
+    Mybox.textContent = "smile 🤞";
+});
